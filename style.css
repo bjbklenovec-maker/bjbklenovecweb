@@ -42,10 +42,17 @@ body{margin:0;font-family:Segoe UI,Arial,sans-serif;line-height:1.6;color:#2d2d2
 .logo{font-weight:700;color:#355441}footer{text-align:center;background:#355441;color:#fff;padding:2rem}@media(max-width:768px){.hero h1{font-size:2.5rem}.nav-inner{flex-direction:column}}
 .bank-account {
     margin-top: 3rem;
-    padding: 1.5rem;
+    padding: 2rem;
+
     background: #eef4ef;
+
     border-left: 4px solid #355441;
     border-radius: 10px;
+}
+
+.bank-account h3 {
+    margin-top: 0;
+    color: #355441;
 }
 
 .iban {
@@ -53,4 +60,22 @@ body{margin:0;font-family:Segoe UI,Arial,sans-serif;line-height:1.6;color:#2d2d2
     font-weight: bold;
     color: #355441;
     letter-spacing: 1px;
+    word-break: break-word;
+}
+
+.qr-code {
+    display: block;
+
+    width: 180px;
+    max-width: 100%;
+
+    margin: 1.5rem auto;
+
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.bank-account p:last-child {
+    margin-bottom: 0;
 }
